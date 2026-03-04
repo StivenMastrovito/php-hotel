@@ -17,3 +17,40 @@ td{
     border: 1px solid black;
     text-align: center;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+form > *{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px;
+}
+
+input{
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+button{
+    padding: 5px 15px;
+    background-color: yellow;
+    width: max-content;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
